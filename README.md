@@ -1,7 +1,9 @@
 *Problem 1*
+
 Consider a binary bandit with two rewards 1-success, 0-failure. The bandit returns 1 or 0 for the action that you select, i.e. 1 or 2. The rewards are stochastic (but stationary). Use the epsilon-greedy algorithm discussed in class and decide upon the action to take for maximiz- ing the expected reward.
 
 *Approach*
+
 This is the case of 2 arm-bandit where the rewards are 1 and 0 for success and failure respec- tively. We performed exploration and exploitation based on the Epsilon Greedy Algorithm. A random number between 0 and 1 is generated and if it comes out to be greater than ep- silon, we perform exploitation, which is based on the prior knowledge. For exploitation, we selected the maximum Q value and perform the action corresponding to which we will get the maximum reward. In the other case, we will explore and get a reward value based on the action.
 
 *A*
