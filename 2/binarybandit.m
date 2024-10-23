@@ -1,6 +1,3 @@
-%Epsilon greedy problem
-%monte carlo simulation 
-
 Q=zeros(1,2);
 N=zeros(1,2);
 e=0.1;
